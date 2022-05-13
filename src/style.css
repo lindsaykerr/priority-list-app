@@ -8,7 +8,7 @@ ul {
 
 #svg-defs {
     height: 0;
-    width: 0;;
+    width: 0;
 }
 
 
@@ -177,7 +177,7 @@ form div {
 form #submit-controls button {
     display: block;
     font-size: 1.1em;
-    font-weight: bold;;
+    font-weight: bold;
     padding: 5px;
     background-color: white;
     border: 2px solid rgb(73, 73, 73);
