@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>App styleing</title>
+    <link rel="stylesheet" href="app.css"/>
+</head>
+<body>
+   <div id="popup">
+      <div id="add-priority">
+         <form id="form-add-task">
+            <div>
+            <textarea required="required" name="task-descrip"  rows="4" placeholder="Task" maxlength="150" minlength="1"></textarea>
+            </div>
+            <div>
+               <label>Due:</label> <input type="datetime-local" name="datetime"/>
+            </div>
+            <div>
+             <label>Priority Level: </label> <input id="level-input" type="number" min="1" max="5" step="1" value="1" name="level" />
+            </div>
+            <div id="submit-controls">
+               <button name="cancel"type="reset">Cancel</button><button type="submit" name="add">Add</button>
+            </div>
+         </form>
+      </div>
+   </div>
+   <div id="popup-bg">
+   </div>
+    <div id="main">
+        <div class="controls">
+            <div id="btn-holder">
+            <button id="btn-add" type="button"><svg viewbox="0 0 5.2916665 5.2916668">
+                <g fill="none"
+                transform="translate(0,-291.70832)"
+                id="layer1">
+               <circle
+                  r="2.6458333"
+                  cy="294.35416"
+                  cx="2.6458333"
+                  id="path863"
+                  style="opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+               <path
+                  id="rect821"
+                  d="m 2.3175239,292.23748 v 1.78333 H 0.53485112 v 0.66163 H 2.3175239 v 1.7827 h 0.6616508 v -1.7827 H 4.7625 v -0.66163 H 2.9791747 v -1.78333 z"
+                  style="opacity:1;fill:#383838;fill-opacity:1;stroke:none;stroke-width:0.79793423;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.98507463" />
+             </g>
+            </svg><span class="sr-only">Add Item</span></button>
+            </div>
+        </div>
+
+        <div id="task-listing">
+          <svg id="svg-defs">
+            <defs>
+               <linearGradient
+                  y2="162.56343"
+                  x2="134.59695"
+                  y1="150.66994"
+                  x1="122.32034"
+                  gradientTransform="matrix(1.3121899,0,0,1.3121899,-158.33514,85.657526)"
+               
+                  id="btnbevel">
+                 <stop
+                    style="stop-color:#ffffff;stop-opacity:1"
+                    offset="0"
+                    id="lightstop" />
+                 <stop
+                    style="stop-color:rgb(216, 144, 150);stop-opacity:1"
+                    offset="1"
+                    class="shadowstop" />
+               </linearGradient>
+             </defs>
+           </svg>
+            <article class="priority-item" style="background-color: rgb(255, 170,170)">
+                <div class="task-descrip">Finish Report for monthly buget</div>
+                <div class="controls">
+                    <button type="button" class="remove"><svg width="30" height="10">
+                        <rect width="30" height="10" style="fill:rgba(122, 122, 122, .5);stroke-width:0;stroke:rgb(0,0,0)" />
+                      </svg> <span class="sr-only">remove</span></button>
+                    <div class="time-view">1hr 2min</div>
+                    <button type="button" class="complete">
+    
+                       <svg
+                        viewBox="0 0 16.668749 16.139584"
+                        height="61"
+                        width="63">
+                       <g
+                          transform="translate(0,-280.8604)">
+                         <ellipse
+                            style="fill:rgb(255, 170,170);fill-opacity:1;stroke:url(#btnbevel);stroke-width:1.31218994;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+                           
+                            cx="8.251359"
+                            cy="288.97641"
+                            rx="7.527122"
+                            ry="7.351768" />
+                         <path
+                            style="opacity:0.2;fill:#333333;fill-opacity:1;stroke:#000000;stroke-width:0.14311713px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+                            d="m 5.258258,289.39658 -1.5333988,1.90593 4.0603484,2.63644 5.9802654,-7.05362 -2.248988,-1.90612 -3.9868395,7.10531 z"
+                             />
+                       </g>
+                     </svg><span class="sr-only">complete</span></button>
+                </div>
+            </article>
+            <article class="priority-item" style="background-color: rgb(255, 204,170);">
+                <div class="task-descrip">Contanct Paul for meeting</div>
+                <div class="controls">
+                    <button type="button" class="remove"><svg width="30" height="10">
+                        <rect width="30" height="10" style="fill:rgba(122, 122, 122, .5);stroke-width:0;stroke:rgb(0,0,0)" />
+                      </svg> <span class="sr-only">remove</span></button>
+                    <div class="time-view">4hr 1min</div>
+                    <button type="button" class="complete"><svg
+                        viewBox="0 0 16.668749 16.139584"
+                        height="61"
+                        width="63">
+                       <defs>
+                         <linearGradient
+                            y2="162.56343"
+                            x2="134.59695"
+                            y1="150.66994"
+                            x1="122.32034"
+                            gradientTransform="matrix(1.3121899,0,0,1.3121899,-158.33514,85.657526)"
+                            gradientUnits="userSpaceOnUse"
+                            id="btnbevel3" >
+                         
+                           <stop
+                              style="stop-color:#ffffff;stop-opacity:1"
+                              offset="0"
+                              class="start"/>
+                           <stop
+                              style="stop-color:rgb(255, 204,170);stop-opacity:1"
+                              offset="1"
+                              class="stop" />
+                         </linearGradient>
+                       </defs>
+                       <g
+                          transform="translate(0,-280.8604)">
+                         <ellipse
+                            style="fill:rgb(255, 204,170);fill-opacity:1;stroke:url(#btnbevel3);stroke-width:1.31218994;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+                            id="imgbutton"
+                            cx="8.251359"
+                            cy="288.97641"
+                            rx="7.527122"
+                            ry="7.351768" />
+                         <path
+                            style="opacity:0.2;fill:#333333;fill-opacity:1;stroke:#000000;stroke-width:0.14311713px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+                            d="m 5.258258,289.39658 -1.5333988,1.90593 4.0603484,2.63644 5.9802654,-7.05362 -2.248988,-1.90612 -3.9868395,7.10531 z"
+                            id="imgtick" />
+                       </g>
+                     </svg><span class="sr-only">complete</span></button>
+                </div>
+            </article>
+            <article class="priority-item"style="background-color: rgb(246, 255, 213)">
+                <div class="task-descrip">Take out bins, general waste.</div>
+                <div class="controls">
+                    <button type="button" class="remove"><svg width="30" height="10">
+                        <rect width="30" height="10" style="fill:rgba(122, 122, 122, .5);stroke-width:0;stroke:rgb(0,0,0)" />
+                      </svg> <span class="sr-only">remove</span></button>
+                    <div class="time-view">5d 1hr 2min</div>
+                    <button type="button" class="complete"><svg
+                        viewBox="0 0 16.668749 16.139584"
+                        height="61"
+                        width="63">
+                       <defs
+                          id="defs1053">
+                         <linearGradient
+                            y2="162.56343"
+                            x2="134.59695"
+                            y1="150.66994"
+                            x1="122.32034"
+                            gradientTransform="matrix(1.3121899,0,0,1.3121899,-158.33514,85.657526)"
+                            gradientUnits="userSpaceOnUse"
+                            id="btnbevel2"
+                            xlink:href="#linearGradient4713" />
+                         <linearGradient
+                            id="linearGradient4713">
+                           <stop
+                              style="stop-color:#ffffff;stop-opacity:1"
+                              offset="0"
+                              id="lightstop" />
+                           <stop
+                              style="stop-color:rgb(246, 255, 213);stop-opacity:1"
+                              offset="1"
+                              class="shadowstop" />
+                         </linearGradient>
+                       </defs>
+                       <g
+                          transform="translate(0,-280.8604)"
+                          id="layer1">
+                         <ellipse
+                            style="fill:rgb(246, 255, 213);fill-opacity:1;stroke:url(#btnbevel2);stroke-width:1.31218994;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+                            id="imgbutton"
+                            cx="8.251359"
+                            cy="288.97641"
+                            rx="7.527122"
+                            ry="7.351768" />
+                         <path
+                            style="opacity:0.2;fill:#333333;fill-opacity:1;stroke:#000000;stroke-width:0.14311713px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+                            d="m 5.258258,289.39658 -1.5333988,1.90593 4.0603484,2.63644 5.9802654,-7.05362 -2.248988,-1.90612 -3.9868395,7.10531 z"
+                            id="imgtick" />
+                       </g>
+                     </svg><span class="sr-only">complete</span></button>
+                </div>
+            </article>
+        </div>
+
+    </div>
+</body>
+<html>

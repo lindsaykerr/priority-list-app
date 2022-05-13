@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   id="svg1057"
+   version="1.1"
+   viewBox="0 0 16.668749 16.139584"
+   height="61"
+   width="63">
+  <defs
+     id="defs1051">
+    <linearGradient
+       y2="162.56343"
+       x2="134.59695"
+       y1="150.66994"
+       x1="122.32034"
+       gradientTransform="matrix(1.3121899,0,0,1.3121899,-158.33514,85.657526)"
+       gradientUnits="userSpaceOnUse"
+       id="linearGradient4691"
+       xlink:href="#linearGradient4711" />
+    <linearGradient
+       id="linearGradient4711">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1"
+         offset="0"
+         id="stop4707" />
+      <stop
+         style="stop-color:#b0b0b0;stop-opacity:1"
+         offset="1"
+         id="stop4709" />
+    </linearGradient>
+  </defs>
+  <metadata
+     id="metadata1054">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(0,-280.8604)"
+     id="layer1">
+    <ellipse
+       style="fill:#b0b0b0;fill-opacity:1;stroke:url(#linearGradient4691);stroke-width:1.31218994;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="ellipse4687"
+       cx="8.251359"
+       cy="288.97641"
+       rx="7.527122"
+       ry="7.351768" />
+    <path
+       style="opacity:0.2;fill:#333333;fill-opacity:1;stroke:#000000;stroke-width:0.14311713px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 5.258258,289.39658 -1.5333988,1.90593 4.0603484,2.63644 5.9802654,-7.05362 -2.248988,-1.90612 -3.9868395,7.10531 z"
+       id="path4689" />
+  </g>
+</svg>
